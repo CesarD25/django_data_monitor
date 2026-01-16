@@ -122,7 +122,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, STATIC_URL),
 ]
 
-API_URL = 'https://jsonplaceholder.typicode.com/posts'
+API_URL = 'https://cesard25.pythonanywhere.com/landing/api/index/?format=json'
 
 CSRF_TRUSTED_ORIGINS = [
   "https://*.app.github.dev", # Solo si utiliza Codespaces
