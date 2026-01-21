@@ -137,7 +137,7 @@ STATICFILES_DIRS = [
 
 STATIC_ROOT = BASE_DIR / 'assets'
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 API_URL = 'https://cesard25.pythonanywhere.com/landing/api/index/?format=json'
 
